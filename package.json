@@ -1,0 +1,19 @@
+{
+  "name": "wordcounter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AleksandR135/WordCounter.git"
+  },
+  "author": "Aleksandr Rekuts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandR135/WordCounter/issues"
+  },
+  "homepage": "https://github.com/AleksandR135/WordCounter#readme"
+}

@@ -2,9 +2,12 @@
   "name": "wordcounter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "webpack-dev-server --mode development",
+    "eslint-fix": "eslint --fix \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,35 @@
   "bugs": {
     "url": "https://github.com/AleksandR135/WordCounter/issues"
   },
-  "homepage": "https://github.com/AleksandR135/WordCounter#readme"
+  "homepage": "https://github.com/AleksandR135/WordCounter#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-react": "^7.16.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss": "^7.0.21",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.18.2",
+    "stylelint": "^11.1.1",
+    "stylelint-webpack-plugin": "^1.0.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
 }
